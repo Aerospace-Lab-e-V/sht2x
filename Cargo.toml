@@ -1,0 +1,14 @@
+[package]
+name = "sht2x"
+version = "0.0.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+byteorder = {version = "1.4.3", default-features=false}
+embedded-hal = "0.2.7"
+num = {version = "0.4", default-features=false}
+num-derive = "0.3.3"
+num-traits = {version="0.2.15", default-features=false}
+
